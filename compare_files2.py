@@ -60,8 +60,8 @@ def compare_folders(folder_a, folder_b):
 
 
 if __name__ == "__main__":
-    folder_a = r"C:\Path\To\FolderA"
-    folder_b = r"C:\Path\To\FolderB"
+    folder_a = input("Enter first file path: ")
+    folder_b = input("Enter second file path: ")
 
     only_in_a, only_in_b, differences, matches = compare_folders(folder_a, folder_b)
 
